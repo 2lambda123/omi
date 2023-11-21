@@ -31,8 +31,7 @@ export class SwiperPage extends Component {
           </h2>
           {/* <!-- Description --> */}
           <p className="mb-3">
-            The Accordion component is a user interface element that displays a vertically stacked list of items, with
-            each item's content being revealed or hidden by clicking on its header.
+          The Most Modern Mobile Touch Slider.
           </p>
 
           <code-showcase
