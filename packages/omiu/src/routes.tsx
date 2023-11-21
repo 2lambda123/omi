@@ -99,6 +99,11 @@ const components = [
     overview: () => import('./components/card/CardPage'),
     api: () => import('./components/card/CardAPI'),
   },
+  {
+    name: 'carousel',
+    overview: () => import('./components/carousel/CarouselPage'),
+    api: () => import('./components/carousel/CarouselAPI'),
+  },
 ]
 
 components.forEach((component: { type?: string; name?: string; page?: string; overview: () => unknown }) => {
