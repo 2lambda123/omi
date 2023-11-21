@@ -53,22 +53,7 @@ export class SwiperPage extends Component {
   </o-accordion-item>
 </o-accordion>`}
           >
-            <o-accordion actives={['b']} onChange={this.onChange}>
-              <o-accordion-item name="a" title="title a">
-                <div>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet
-                  blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </div>
-              </o-accordion-item>
-              <o-accordion-item name="b" title="title b">
-                <div>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet
-                  blandit leo lobortis eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                  malesuada lacus ex, sit amet blandit leo lobortis eget.
-                </div>
-              </o-accordion-item>
-            </o-accordion>
+            <o-swiper actives={['b']} onChange={this.onChange}></o-swiper>
           </code-showcase>
         </section>
       </div>
