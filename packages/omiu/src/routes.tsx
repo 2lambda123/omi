@@ -100,9 +100,9 @@ const components = [
     api: () => import('./components/card/CardAPI'),
   },
   {
-    name: 'carousel',
-    overview: () => import('./components/carousel/CarouselPage'),
-    api: () => import('./components/carousel/CarouselAPI'),
+    name: 'swiper',
+    overview: () => import('./components/swiper/SwiperPage'),
+    api: () => import('./components/swiper/SwiperAPI'),
   },
 ]
 

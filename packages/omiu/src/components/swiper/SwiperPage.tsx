@@ -3,10 +3,10 @@ import '@/site/code-showcase'
 import { tag, Component, bind } from 'omi'
 import { tailwind } from '@/tailwind'
 
-import './carousel'
+import './swiper'
 
-@tag('carousel-page')
-export class CarouselPage extends Component {
+@tag('swiper-page')
+export class SwiperPage extends Component {
   static css = [
     tailwind,
     `
