@@ -2,8 +2,8 @@ import { tag, Component, classNames, OmiProps } from 'omi'
 import { tailwind } from '@/tailwind'
 import '../collapse/collapse'
 
-@tag('o-accordion')
-export class Accordion extends Component {
+@tag('o-carousel')
+export class Carousel extends Component {
   static css = [
     tailwind,
     `:host {
