@@ -8,7 +8,7 @@
   "devDependencies": {
     "less": "^4.1.1",
     "typescript": "^4.3.2",
-    "vite": "^2.9.17"
+    "vite": "^2.9.18"
   },
   "dependencies": {
     "omi": "latest"
